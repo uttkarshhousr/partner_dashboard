@@ -1,16 +1,34 @@
-# partner_dashboard
+# Partner Dashboard
 
-A new Flutter project.
+This Flutter application is a Partner Dashboard that displays various metrics such as goals, partner counts, meetings, renewals, top performers, and attendance calendar. It uses the BLoC (Business Logic Component) pattern and integrates several widgets to provide a comprehensive dashboard view.
+
+## Features
+
+- Displays a greeting message with user name
+- Shows goal sheet with circular progress bar
+- Provides partner count with active and inactive partner representation
+- Lists today's meetings with semi-circular progress bar and meeting status
+- Displays renewal report with radio buttons and progress bar
+- Shows top performers with toggle buttons and a list of performers
+- Integrates an attendance calendar to mark present and absent days
+
+## Packages Used
+
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc): For state management
+- [syncfusion_flutter_calendar](https://pub.dev/packages/syncfusion_flutter_calendar): For calendar widget
+- [table_calendar](https://pub.dev/packages/table_calendar): For displaying attendance data
+- [simple_circular_progress_bar](https://pub.dev/packages/simple_circular_progress_bar): For circular progress bars
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/partner_dashboard.git
