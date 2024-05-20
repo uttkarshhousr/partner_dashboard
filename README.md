@@ -15,7 +15,6 @@ This Flutter application is a Partner Dashboard that displays various metrics su
 ## Packages Used
 
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc): For state management
-- [syncfusion_flutter_calendar](https://pub.dev/packages/syncfusion_flutter_calendar): For calendar widget
 - [table_calendar](https://pub.dev/packages/table_calendar): For displaying attendance data
 - [simple_circular_progress_bar](https://pub.dev/packages/simple_circular_progress_bar): For circular progress bars
 
